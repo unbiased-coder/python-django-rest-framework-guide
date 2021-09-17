@@ -6,3 +6,6 @@ class PersonSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Person
         fields = ['first_name', 'last_name', 'dob']
+
+
+
